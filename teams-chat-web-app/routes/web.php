@@ -1,12 +1,19 @@
 <?php
 
+use Inertia\Inertia;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ApiController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ChatController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\ChatController;
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
+
 Route::get('/users', [UserController::class, 'index'])->name('users.index');
-Route::post('/users/load', [UserController::class, 'loadUsers'])->name('users.load');
+Route::get('/load-users', [UserController::class, 'fetchAndStoreUsers'])->name('load.users');
+
 Route::get('/chats', [ChatController::class, 'index'])->name('chats.index');
-Route::post('/chats/show', [ChatController::class, 'showChats'])->name('chats.show');
+Route::get('/load-chats', [ChatController::class, 'generateChats'])->name('load.chats');

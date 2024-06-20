@@ -14,11 +14,19 @@
         "vite": "^5.3.0"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.5.2",
+        "@fortawesome/free-brands-svg-icons": "^6.5.2",
+        "@fortawesome/free-regular-svg-icons": "^6.5.2",
+        "@fortawesome/free-solid-svg-icons": "^6.5.2",
+        "@fortawesome/vue-fontawesome": "^3.0.0-5",
         "@inertiajs/inertia": "^0.11.1",
         "@inertiajs/inertia-vue3": "^0.6.0",
         "@inertiajs/progress": "^0.1.2",
         "@inertiajs/vue3": "^1.2.0",
+        "@mdi/font": "^7.4.47",
         "@vitejs/plugin-vue": "^5.0.5",
-        "vue": "^3.4.27"
+        "flowbite": "^2.3.0",
+        "vue": "^3.4.27",
+        "vuetify": "^3.6.9"
     }
 }
