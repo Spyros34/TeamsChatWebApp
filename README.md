@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a chat web application that integrates with Microsoft Entra ID to fetch user data and allows users to view and manage chat conversations. The application uses a Laravel backend and a Vue.js frontend, and it also communicates with a Python Flask app for specific tasks.
+This project is a chat web application that integrates with Microsoft Entra ID to fetch user data and allows users to view chat conversations. The application uses a Laravel backend and a Vue.js frontend, and it also communicates with a Python Flask app for specific tasks.
 
 ## Features
 
