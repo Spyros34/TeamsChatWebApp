@@ -6,8 +6,8 @@ This project is a chat web application that integrates with Microsoft Entra ID t
 
 ## Features
 
-- **User Management**: View and manage users from Microsoft Entra ID.
-- **Chat Management**: View and manage chat conversations between users.
+- **Users**: View users from Microsoft Entra ID.
+- **Chats**: View chat conversations between users.
 - **Data Synchronization**: Fetch and store users and chats in a Microsoft SQL Server database.
 
 ## Technologies Used
