@@ -34,7 +34,7 @@ This project is a chat web application that integrates with Microsoft Entra ID t
 
     ```bash
     git clone https://github.com/Spyros34/TeamsChatWebApp.git
-    cd microsoft-chat-web-app
+    cd TeamsChatWebApp/Teams-chat-web-app-laravel
     ```
 
 2. **Set up environment variables**:
@@ -89,7 +89,7 @@ This project is a chat web application that integrates with Microsoft Entra ID t
 1. **Navigate to the Flask app directory**:
 
     ```bash
-    cd path/to/your/flask_app
+    cd TeamsChatWebApp/Teams-chat-web-app-python
     ```
 
 2. **Set up a virtual environment**:
@@ -99,13 +99,7 @@ This project is a chat web application that integrates with Microsoft Entra ID t
     source venv/bin/activate
     ```
 
-3. **Install dependencies**:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Run the Flask app**:
+3. **Run the Flask app**:
 
     ```bash
     flask run
